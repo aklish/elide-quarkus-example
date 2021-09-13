@@ -9,7 +9,7 @@ import static org.hamcrest.CoreMatchers.is;
 @QuarkusTest
 public class ElideEndpointTests {
 
-    //@Test
+    @Test
     public void jsonApiEndpointTest() {
         given()
           .when().get("/jsonapi/book")
@@ -17,7 +17,7 @@ public class ElideEndpointTests {
              .statusCode(200);
     }
 
-    //@Test
+    @Test
     public void swaggerApiEndpointTest() {
         given()
                 .when().get("/doc/api")
