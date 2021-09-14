@@ -50,7 +50,7 @@
     </dependency>
     <dependency>
       <groupId>com.yahoo.elide</groupId>
-      <artifactId>elide-extension</artifactId>
+      <artifactId>elide-quarkus-extension</artifactId>
       <version>${elide.version}</version>
     </dependency>
     <dependency>
